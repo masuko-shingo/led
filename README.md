@@ -22,15 +22,15 @@ https://github.com/todasayaka/led_national_flag
 ## 実行方法
 ```
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/masuko-shingo/kadai2.git     //このリポジトリをローカルにクローンする
+$ git clone https://github.com/masuko-shingo/led.git     //このリポジトリをローカルにクローンする
 $ cd ..
 $ catkin_make     //ビルドする
 $ source ~/.bashrc
-$ cd src/kadai2/myled
+$ cd src/led/myled
 $ make    //コンパイル
 $ sudo insmod myled.ko      //カーネルモジュールのインストール
 $ sudo chmod 666 /dev/myled0      //パーミッションの変更
-$ roslaunch kadai2 led.launch     //ローンチファイルの実行
+$ roslaunch led led.launch     //ローンチファイルの実行
 $ sudo rmmod myled.ko       //カーネルモジュールのアンインストール
 ```
 
