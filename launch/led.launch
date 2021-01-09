@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="led" name="pub" type="pub.py" output="screen" required="true" />
+  <node pkg="led" name="sub" type="sub.py" output="screen" required="true" />
+</launch>
