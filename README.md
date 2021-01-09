@@ -4,8 +4,8 @@
 
 「ROS」を入力するとモールス信号での”R”,”O”,”S”がledで光り、「1」を入力するとledが点灯、「0」を入力するとledが消灯するROSパッケージです。
   
-Toda sayaka さんのROSパッケージを参考にしました。
-  Githubリンク
+Toda sayaka さんのROSパッケージを参考にしました。  
+Githubリンク
 https://github.com/todasayaka/led_national_flag
   
 改造した部分は、PublisherからSubscriberに送信するメッセージの型をStringに変更、Subscriberにtimeライブラリを追加して自分の行いたい内容に改造しました。
