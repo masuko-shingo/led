@@ -19,7 +19,7 @@ https://github.com/todasayaka/led_national_flag
 | OS | Ubuntu 20.04 |
 | ROS | ROS Noetic |
 
-##インストール,ビルド
+## インストール,ビルド
 ```
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/masuko-shingo/led.git     //このリポジトリをローカルにクローンする
