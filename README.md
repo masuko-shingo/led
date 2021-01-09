@@ -19,13 +19,17 @@ https://github.com/todasayaka/led_national_flag
 | OS | Ubuntu 20.04 |
 | ROS | ROS Noetic |
 
-## 実行方法
+##インストール,ビルド
 ```
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/masuko-shingo/led.git     //このリポジトリをローカルにクローンする
 $ cd ..
 $ catkin_make     //ビルドする
-$ source ~/.bashrc
+$ source ~/.bashrc    //bashrcを更新
+```
+
+## 実行方法
+```
 $ cd src/led/myled
 $ make    //コンパイル
 $ sudo insmod myled.ko      //カーネルモジュールのインストール
