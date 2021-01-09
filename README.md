@@ -8,7 +8,7 @@ Toda sayaka さんのROSパッケージを参考にしました。
 Githubリンク
 https://github.com/todasayaka/led_national_flag
   
-改造した部分は、PublisherからSubscriberに送信するメッセージの型をStringに変更、Subscriberにtimeライブラリを追加して自分の行いたい内容に改造しました。
+改造した部分は、PublisherからSubscriberに送受信するメッセージの型をInt32からStringに変更、Subscriberにtimeライブラリを追加して自分の行いたい内容に改造しました。
 
 ---
 
