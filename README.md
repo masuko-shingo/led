@@ -45,7 +45,7 @@ $ sudo rmmod myled.ko       //カーネルモジュールのアンインスト�
 https://youtu.be/y1i6_Mqn16c
 
 ## Copyright
-Copyright © (Free Software Foundation, Inc.) 2020  Sayaka Toda + Shingo Masuko. 
+Copyright © 2020  Sayaka Toda + Shingo Masuko. 
 
 This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
